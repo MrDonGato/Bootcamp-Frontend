@@ -1,0 +1,81 @@
+.row1, .row2, .row3, .cel, .am, .gre1, .gre2{
+    display: block;
+}
+
+.blue, .orenjii3, .orenjii4, .green, .lblue, .yellow1, .yellow2, .grey1, .grey2, .grey3{
+    text-align: center;
+    color: white;
+    border: solid 1px black;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+
+.blue{
+    background-color: royalblue;
+}
+.orenjii3, .orenjii4{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.yellow1, .yellow2{
+    background-color: yellow;
+    color: black;
+}
+.grey1, .grey2, .grey3{
+    background-color: grey;
+}
+.lblue{
+    background-color: lightskyblue;
+}
+@media (min-width: 400px) and (max-width:700px){
+    .row1, .row3{
+        display: flex;
+    }
+}
+@media (min-width: 701px){
+    .row1, .row2, .row3{
+        display: flex;
+    }
+    .row2{
+        flex-wrap: wrap;
+    }
+    .orenjii3{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 351px) and (max-width: 650px){
+    .am{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .yellow1{
+        width: 50%;
+    }
+    .gre1{
+        display: flex;
+    }
+}
+@media (min-width: 651px){
+    .cel, .am, .gre1, .gre2{
+        display: flex;
+    }
+    .gre1{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .grey1{
+        width: 60%;
+    }
+    .gre2{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .grey2{
+        width: 40%;
+    }
+}

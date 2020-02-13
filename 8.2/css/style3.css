@@ -1,0 +1,76 @@
+.bla, .or, .blu, .gre{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.black{
+    background-color: black;
+}
+.or1, .or2, .or3{
+    background-color: orange;
+}
+.blu1, .blu2, .blu3{
+    background-color: blue;
+}
+.gre1, .gre2, .gre3{
+    background-color: green;
+}
+.black, .or1, .or2, .or3, .blu1, .blu2, .blu3, .gre1, .gre2, .gre3{
+    width: 100%;
+    border: solid 1px white;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+@media (min-width: 391px) and (max-width: 660px){
+  .or, .gre, .bla{
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .or, .bla{
+    justify-content: flex-end;      
+  }
+  .or1{
+      width: 40%
+  }
+  .or2{
+      width: 20%;
+  }
+  .or3{
+      width: 90%;
+  }
+  .gre1{
+    width: 100%;
+  }
+  .gre2, .gre3{
+      width: 50%;
+  }
+  .blu1{
+      width: 50%;
+      align-self: flex-end;
+  }
+  .blu2{
+      width: 60%;
+      align-self: flex-start;
+  }
+  .black{
+      width: 20%;
+  }
+}
+@media (min-width: 661px){
+    .or, .gre, .blu, .bla{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;      
+    }
+    .or1, .gre1, .blu1{
+        width: 90%
+    }
+    .or2, .gre2, .blu2{
+        width: 30%;
+    }
+    .or3, .gre3, .blu3{
+        width: 70%;
+    }
+}

@@ -1,0 +1,47 @@
+.one,.two,.three,.four,.five,.six{
+    background-color: cornflowerblue;
+    width: 100%;
+    border: solid 1px white;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.l1,.l2,.l3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+@media(max-width: 400px){
+    .three,.four{
+        width: 50%;
+    }
+    .four{
+        align-self: flex-end;
+    }
+}
+@media (min-width:401px) and (max-width:700px){
+    .one,.three,.five{
+        width: 50%;
+    }
+    .three{
+        align-self: flex-end;
+    }
+    .six{
+        display: none;
+    }
+}
+@media (min-width:701px){
+    .two,.three,.four{
+        width: 50%;
+    }
+    .two{
+        align-self: flex-end;
+    }
+    .three{
+        align-self: center;
+    }
+    .five{
+        display: none;
+    }
+}

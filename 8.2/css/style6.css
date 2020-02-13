@@ -1,0 +1,58 @@
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten{
+    background-color: cornflowerblue;
+    width: 100%;
+    border: solid 1px white;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.l1,.l2,.l3,.l4,.l5,.l6{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+@media (max-width: 241px){
+    .two,.eight{
+        width: 80%;
+        align-self: center;
+    }
+}
+@media (min-width:241px) and (max-width:458px){
+    .two{
+        width: 80%;
+        align-self: flex-end;
+    }
+    .three,.five,.seven{
+        width: 20%;
+        align-self: flex-end;
+    }
+    .l5{
+        flex-direction: row;
+    }
+}
+@media (min-width:459px){
+    .one,.two,.four,.ten{
+        width: 20%;
+    }
+    .one{
+        align-self: flex-end;
+    }
+    .three{
+        width: 80%;
+    }
+    .l2,.l4,.l5{
+        flex-direction: row;
+    }
+    .five{
+        width: 60%;
+        align-self: flex-end;
+    }
+    .l5{
+        width: 50%;
+    }
+    .ten{
+        align-self: flex-end;
+    }
+
+}

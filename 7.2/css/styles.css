@@ -1,0 +1,54 @@
+.blue{
+    border: solid 1px darkblue;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.orenjii{
+    border: solid 1px darkorange;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+.green{
+    border: solid 1px darkgreen;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+.wblue{
+    border: solid 1px blue;
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
+}
+.yellow{
+    border: solid 1px orange;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+.grey{
+    border: solid 1px black;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+.black{
+    border: solid 1px black;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.col-xs-12  .col-sm-11 .col-md-7{
+    align-self: flex-end;
+}
+.col-md-6 .green{
+    flex-direction: row-reverse;
+}
+.lblue{
+    border: solid 1px black;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+}

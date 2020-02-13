@@ -1,0 +1,10 @@
+.test{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+img{
+    max-width:250px;
+}

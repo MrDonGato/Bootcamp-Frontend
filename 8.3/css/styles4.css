@@ -1,0 +1,74 @@
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten{
+    background-color: black;
+    width: 100%;
+    border: solid 1px lightskyblue;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.l1,.l2,.l3,.l4{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+@media (max-width:390px){
+    .l3{
+        display: none;
+    }
+    .l2{
+        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+    }
+    .six,.five,.three,.two{
+        width: 30%;
+    }
+    .five,.three{
+        align-self: flex-end;
+    }
+    .four{
+        width: 70%;
+    }
+}
+@media (min-width:391px) and (max-width:660px){
+    .three,.four,.five,.six{
+        width: 70%;
+    }
+    .four,.six{
+        align-self: flex-end;
+    }
+    .seven,.eight{
+        height: 80px;
+        width: 35%;
+        padding: 0px;
+        line-height: 80px;
+    }
+    .l3{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media (min-width:661px){
+    .one{
+        display: none;
+    }
+    .three,.four,.five,.seven{
+        width: 33.33%;
+    }
+    .four{
+        align-self: center;
+    }
+    .five{
+        align-self: flex-end;
+    }
+    .nine{
+        width: 20%;
+        align-self: center;
+    }
+    .seven,.eight{
+        height:50px;
+        padding: 0px;
+        line-height: 50px;
+    }
+}

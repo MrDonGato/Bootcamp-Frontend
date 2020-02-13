@@ -1,0 +1,20 @@
+main{
+    display: flex;
+}
+.purple{
+    background-color: purple;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.big{
+    padding-bottom: 80px;
+}
+.blue{
+    background-color: blue;
+    padding: 10px;
+}
+.red{
+    background-color: red;
+    margin: 10px 0px;
+    padding-bottom: 40px;
+}
