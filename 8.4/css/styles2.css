@@ -1,0 +1,72 @@
+.one,.two,.three,.four,.five,.six,.seven,.eight{
+    background-color: olivedrab;
+    width: 100%;
+    border: solid 1px blue;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.l1,.l2,.l3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+@media (max-width:200px){
+    .three{
+        height: 100px;
+        line-height: 100px;
+        width: 50%;
+        align-self: center;
+    }
+    .five{
+        display: none;
+    }
+    .l3{
+        display: none;
+    }
+}
+@media (min-width:201px) and (max-width:700px){
+    .l1{
+        flex-direction: column-reverse;
+    }
+    .two{
+        width: 50%;
+        align-self: flex-end;
+    }
+    .three{
+        width: 80%;
+        height: 110px;
+        line-height: 110px;
+        align-self: center;
+    }
+    .five{
+        width: 60%;
+        align-self: center;
+    }
+    .six,.seven{
+        display: none;
+    }
+}
+@media (min-width:701px){
+    .l1{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .one,.two,.four,.five{
+        width: 50%;
+    }
+    .l2{
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+    .three{
+        height: 110px;
+        line-height: 110px;
+        align-self: center;
+    }
+    .l3{
+        flex-direction: column-reverse;
+    }
+}
