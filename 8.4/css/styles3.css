@@ -21,7 +21,7 @@
         width: 100%;
     }
     .l1{
-        flex-direction: row-reverse;
+        flex-direction: row;
         flex-wrap: wrap;
     }
     .five,.three{
@@ -32,20 +32,52 @@
     }
 }
 @media (min-width:391px) and (max-width:660px){
-    .l1,.l2{
-        flex-direction: row;
-        flex-wrap: wrap;
+    .l1{
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
     }
     .one,.two,.five,.eight{
         width: 50%;
     }
     .ten{
-        width: 30%;
+        width: 35%;
     }
-    .four{
+    .l2{
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    .six{
+        display: none;
+    }
+    .five,.eight{
+        order: 0;
+    }
+    .seven{
         order: 1;
     }
-    .one,.two,.eight,.five{
+    .nine{
         order: 2;
+    }
+    .three{
+        order: 3;
+    }
+    .ten{
+        order: 4;
+    }
+}
+@media (min-width:661px){
+    .l1{
+        display: none;
+    }
+    .five,.six,.seven,.nine{
+        display: none;
+    }
+    .three{
+        height: 150px;
+        line-height: 150px;
+    }
+    .ten{
+        height: 100px;
+        line-height: 100px;
     }
 }
