@@ -41,6 +41,7 @@
     }
     .ten{
         width: 35%;
+        align-self: center;
     }
     .l2{
         flex-direction: row-reverse;
@@ -48,21 +49,6 @@
     }
     .six{
         display: none;
-    }
-    .five,.eight{
-        order: 0;
-    }
-    .seven{
-        order: 1;
-    }
-    .nine{
-        order: 2;
-    }
-    .three{
-        order: 3;
-    }
-    .ten{
-        order: 4;
     }
 }
 @media (min-width:661px){
