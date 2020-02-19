@@ -39,9 +39,16 @@
     .one,.two,.five,.eight{
         width: 50%;
     }
+    .nine{
+        order: 0;
+    }
+    .three{
+        order: 1;
+    }
     .ten{
         width: 35%;
         align-self: center;
+        order: 2;
     }
     .l2{
         flex-direction: row-reverse;
