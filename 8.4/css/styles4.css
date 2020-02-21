@@ -1,0 +1,66 @@
+.one,.two,.three,.four,.five,.six,.seven{
+    background-color: blue;
+    width: 100%;
+    border: solid 1px yellow;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.l1,.l2,.l3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: yellow;
+}
+@media (max-width:390px){
+    .six,.five{
+        width: 55%;
+    }
+    .one,.two{
+        width: 45%;
+        align-self: flex-end;
+    }
+}
+@media (min-width:391px) and (max-width:660px){
+    .seven,.one,.six,.five{
+        width: 33.3%;
+    }
+    .three,.four{
+        width: 66.7%;
+    }
+    .seven{
+        align-self: flex-end;
+    }
+    .one{
+        align-self: center;
+    }
+    .l1{
+        order: 1;
+        flex-direction: column-reverse;
+    }
+    .l2{
+        order: 0;
+        flex-direction: column-reverse;
+    }
+    .l3{
+        order: 2;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+} 
+@media (min-width:661px){
+    .l3{
+        order: 0;
+    }
+    .l2{
+        order: 2;
+    }
+    .l1{
+        order: 1;
+    }
+}
