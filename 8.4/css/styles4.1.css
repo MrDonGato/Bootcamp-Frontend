@@ -1,0 +1,49 @@
+.one, .two, .three, .four, .five, .six, .seven {
+    background-color: blue;
+    width: 100%;
+    border: solid 1px yellow;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+    color: yellow;
+    text-align: center;
+    justify-content: center;
+}
+.box, .container, .l1, .l2, .l3 {
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 389px) {
+    .six, .five {
+        width: 55%;
+    }
+    .one, .two {
+        width: 45%;
+        align-self: flex-end;
+    }
+}
+@media (min-width: 390px) and (max-width: 660px) {
+    .container, .l1, .l2 {
+        flex-direction: column-reverse;
+    }
+    .l3 {
+        flex-direction: row-reverse;
+    }
+    .six, .one, .seven, .five {
+        width: 33%;
+    }
+    .three, .four {
+        width: 67%;
+    }
+    .one {
+        align-self: center;
+    }
+    .seven {
+        align-self: flex-end;
+    }
+}
+@media (min-width: 661px) {
+    .box {
+        flex-direction: column-reverse;
+    }
+}
