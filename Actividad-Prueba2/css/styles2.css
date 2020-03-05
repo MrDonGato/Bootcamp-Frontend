@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.l1 {
+    display: flex;
+    flex-direction: row;
+}
+.p1,.p2,.p3{
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+.one,.seven{
+    height: 150px;
+}
+.two,.four{
+    height: 250px;
+}
+.three{
+    height: 200px;
+}
+.six{
+    height: 450px;
+}
+.five{
+    height: 350px;
+}
+@media (min-width:401px) {
+   .one,.two,.three{
+       height: 200px;
+   }
+   .four,.five,.six,.seven{
+       height: 300px;
+   }
+}
