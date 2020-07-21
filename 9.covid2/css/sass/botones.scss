@@ -1,0 +1,13 @@
+$radio: 10px;
+$color-letra: white;
+
+.botonok{
+    border-radius: $radio;
+    background-color: green;
+    color: $color-letra;
+}
+.botondanger{
+    border-radius: $radio;
+    background-color: red;
+    color: $color-letra;
+}

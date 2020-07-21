@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,QAAQ,CAAA;EACJ,aAAa,EAJT,IAAI;EAKR,gBAAgB,EAAE,KAAK;EACvB,KAAK,EALK,KAAK;CAMlB;;AACD,AAAA,YAAY,CAAA;EACR,aAAa,EATT,IAAI;EAUR,gBAAgB,EAAE,GAAG;EACrB,KAAK,EAVK,KAAK;CAWlB",
+    "sources": [
+        "botones.scss"
+    ],
+    "names": [],
+    "file": "botones.css"
+}

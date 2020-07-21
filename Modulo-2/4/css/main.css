@@ -1,0 +1,149 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  width: 50%;
+  height: 30%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.photo {
+  width: 70%;
+  height: 40%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.foto2 {
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.foto1 {
+  width: 83%;
+  height: 83%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  margin: auto;
+  font-family: "sans-serif";
+  line-height: 1;
+}
+
+.flex-grid {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto -1rem 1rem;
+}
+
+.col {
+  background-color: grey;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.sidebar {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  overflow: auto;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main {
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 150vh;
+}
+
+.promo1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.text1 {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  margin: 10px;
+}
+
+.promo2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+ul li {
+  margin-top: 10px;
+  font-size: large;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.buy {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bottom img {
+  width: 20%;
+  height: 60%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*# sourceMappingURL=main.css.map */

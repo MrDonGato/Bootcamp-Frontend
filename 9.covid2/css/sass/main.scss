@@ -1,0 +1,14 @@
+@mixin boton-redondo($radio) {
+    border-radius: $radio;
+    background-color: black;
+    color: red;
+    font-size: 20px;
+}
+
+.botoncircular{
+    @include boton-redondo(50px);
+}
+
+.botonrectangular{
+    @include boton-redondo(10px);
+}

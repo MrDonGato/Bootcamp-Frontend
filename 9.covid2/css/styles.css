@@ -1,0 +1,15 @@
+.botoncircular {
+  border-radius: 50px;
+  background-color: black;
+  color: red;
+  font-size: 20px;
+}
+
+.botonrectangular {
+  border-radius: 10px;
+  background-color: black;
+  color: red;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

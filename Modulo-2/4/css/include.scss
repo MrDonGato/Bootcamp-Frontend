@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+$fuente: 'sans-serif';
+$fondo: grey;
+$shadow:blue;
+$color: white;
+$bg: black;
+
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
